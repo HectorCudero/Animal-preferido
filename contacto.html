@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fin Tonic, preparación deportiva de alto rendimiento</title>
+
+    <!-- Insercción hoja de estilos css -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <link rel="stylesheet" href="css/arte-nombre-animal.css">
+    <link rel="stylesheet" href="css/contacto.css">
+
+    <!-- Insercción mediaqueris -->
+    <link rel="stylesheet" href="css/mediaqueris.css">
+</head>
+<body>
+
+
+
+<!-- CABECERA PRINCIPAL -->
+
+    <header>
+
+        <div class="grid primeraCabecera">
+            <img class="logo" src="imagenes/perro-foto-logo.png" width="350px" alt="">
+        </div>
+
+
+        <nav> 
+
+            <img src="imagenes/menu.svg" width="20px" alt="">
+            
+            <ul class="grid navGrid">
+                <li>
+                    <a href="Index.html">HOME</a>
+                </li>
+
+                <li>
+                    <a href="arte-nombre-animal.html">CINE Y ANIMALES</a>
+                </li>
+
+                <li>
+                    <a href="contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+   <main>
+        <div class="alineacion">
+           <h2 id="h2-verde">Suscribete a nuestro boletin</h2>
+            <p>Te informamos sobre los procesos de fabricacion artesanal y todas las novedades de productos:</p> 
+        </div>
+        
+
+        <div class="filaFlex ancho40 ">
+           <form action="ProcesarForm.PHP"  method="post" enctype="multipart/form-data" name="peticion-datos" class="formulario">
+    
+                <!-- Nombre -->
+                <div>
+                    <input class="nombre" type="text" name="nombre-usuario" id="nombre-user" placeholder="Nombre" required>
+                </div>
+        
+                <!-- Textarea -->
+
+                <div class="campoFormulario">
+
+                    <textarea name="consulta" id="consulta-user" cols="30" rows="10" placeholder="Comparta su información" required></textarea>
+
+                </div>
+                        
+                <!-- Clausulas de invio -->
+                <div>
+                    <input type="checkbox" name="clausula" id="aceptar-clausulas" required>
+                    <label for="aceptar-clausulas" required>Acepto condiciones y termino de usos. <a href="#">Leer condiciones</a></label>
+                </div>
+
+                <!-- boton enviar -->
+                <div>
+                    <input class="botonEnviar" type="submit" value="Enviar">
+                </div>
+
+            </form> 
+        </div>
+    
+        
+   </main>
+		
+
+    <!-- Footer -->
+
+  <footer>
+
+    <div class="grid backgroundNegro">
+
+        <div class="color">
+
+            <h2>¿Por que nosotros</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore corrupti at, explicabo totam expedita veritatis nostrum in quia consequuntur hic.</p>
+    
+        </div>
+    
+        <div>
+            <h2>Servicio adiestramiento</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut exercitationem debitis consequatur, ullam eos excepturi praesentium tenetur sunt voluptatibus iure?</p>
+    
+        </div>
+    
+        <div>
+    
+            <h2>Contacta con nosotros</h2>
+
+            <address>
+                <p>Paseo Damas 19, Centro Comercial las <br> Flores <br> 2800 CADIZ</p>
+    
+                <p class="paddingTop"> <a href="tel:+34976216995">+34 976 216 995</a></p>
+    
+                <p><a href="mailto:fintonic@fintonic.com">paraisopeludo@fintonic.com</a></p>
+            </address>
+        </div>
+
+    </div>
+
+    <div class="backgroundAmarillo grid">
+        <p>&copy Paraiso Peludo. Todo los derechos reservados</p>
+    </div>
+    
+  </footer>
+
+    
+    
+</body>
+</html>

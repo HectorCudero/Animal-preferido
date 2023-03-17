@@ -1,0 +1,62 @@
+/* Fomulario */
+form{
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 25px;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.formulario div{
+    padding: 10px;
+  }
+ 
+  .nombre{
+    background: #c6c6c6;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1.2em;
+    padding: 10px;
+    border: none;
+  }
+ 
+  .botonEnviar{
+    background: rgb(160, 195, 63);
+    width: 100%;
+    border-radius: 10px;
+    color: rgb(52, 62, 24);
+    font-weight: bold;
+    font-size: 2.5em;
+    border: none;
+  }
+ 
+ .formulario a{
+    color: white;
+    text-decoration: none;
+ }
+ 
+ .formulario a:hover{
+    background: black;
+    color: rgba(249, 249, 249, 0.748);
+ }
+
+ .filaFlex{
+    display: flex;
+    justify-content: space-around;
+   
+ }
+
+ .ancho40{
+    flex-basis: 40%;
+ }
+
+ .alineacion{
+    margin-top: 50px;
+    text-align: center;
+ }
+
+ textarea{
+    width: 100%;
+    background: #c6c6c6;
+    font-size: 1.2em;
+ }
+
