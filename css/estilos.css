@@ -178,7 +178,7 @@ header nav{
 /* Footer */
 
 footer .backgroundNegro{
-    background:rgb(31, 31, 31);
+    background:#ffc760d3;
     min-height: 250px;
     text-align: center;
     align-content: center;
@@ -187,21 +187,21 @@ footer .backgroundNegro{
 
 
  .backgroundNegro h2{
-    color: rgb(211, 211, 211);
+    color: rgb(96 94 94);
     font-size: 2em;
     padding-bottom: 20px;
  }
 
  .backgroundNegro p{
     font-size: 1.2em;
-    color: rgb(150, 150, 150);
+    color: rgb(114 112 112);
     
  }
 
 
 
 .backgroundAmarillo{
-    background:  #9D8E22;
+    background:  #fb8d1b;
     min-height: 70px;
     align-content: center;
     
@@ -218,7 +218,7 @@ footer .backgroundNegro{
 
 address a{
     text-decoration: none;
-    color: #9D8E22;
+    color: #fb8d1b;
     
 }
 
