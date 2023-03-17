@@ -1,0 +1,241 @@
+/* ASPECTOS GENERALES */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header a{
+    text-decoration: none;
+}
+
+.grid{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+    
+}
+
+.fondoBlanco{
+    background: rgba(255, 255, 255, 0.724);
+}
+
+ h2{
+    color:#1B1B1B ;
+ }
+
+ 
+
+ p{
+    color: #444444;
+ }
+
+
+
+/* CABEREA PRINCIPAL */
+
+/* Primera cabecera */
+
+
+.primeraCabecera{
+   
+    align-content:center ;
+}
+
+.navGrid{
+    
+    justify-content: center;
+    min-height: 50px;
+    align-content: center;
+
+    
+}
+
+.navGrid li{
+    padding-right: 20px;  
+}
+
+header div{
+    background: url("../imagenes/fondo-cabecera.jpg")center center /cover;
+    min-height: 300px;
+    padding-left: 40px;
+}
+
+header div h1{
+    padding-top: 20px;
+    color: #CCBB33;
+    font-size: 3em;
+}
+
+nav a:hover{
+    background: white;
+    color:  #000000;
+}
+
+
+nav img{
+    display: none;
+}
+
+nav{
+    text-align: center;
+}
+
+/* Menu navegación */
+
+header nav{
+    background: #000;
+    color: white;
+    min-height: 50px;
+    
+    
+}
+ header ul{
+    list-style-type: none;
+ }
+
+ header a{
+    text-decoration: none;
+    color: #CCBB33;
+}
+
+/* CONTENIDO PRINCIPAL */
+
+/* Rendimento deportivo */
+
+.rendimientoDeportivo{
+    background: url("../imagenes/fondo-seccion.jpg") 0px 20%/cover;
+    min-height: 500px; 
+    display: grid; 
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    padding: 70px 150px 70px 150px;
+    
+}
+
+.grid-h2{
+    
+    grid-row: 1/3;
+    border: 1px solid rgba(188, 188, 188, 0.629);
+    border-radius:25px 0 0 25px;
+    padding: 40px;
+    font-size: 2.5em;
+    text-shadow:1px white;
+   
+ 
+    
+}
+
+.grid-p, .grid-p-2{
+    border: 1px solid rgba(188, 188, 188, 0.629);
+    border-radius: 0 25px 25px 0;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+
+/* Tratamientos preventivos */
+
+.gridTratamientos{
+    grid-template-columns: 1fr;
+    margin: 60px 130px 60px 130px;
+}
+ 
+.tratamientosPreventivos h2{
+
+    font-size: 3em;
+    padding-bottom: 40px;
+}
+
+.tratamientosPreventivos >p{
+    font-size: 1.5em;
+    padding-bottom: 40px;
+}
+
+
+.tratamientosPreventivos .grid{
+   grid-auto-flow: column;
+   justify-content:left;
+   gap: 40px;
+   
+}
+
+.tamañoIMG img{
+    width: 100%;
+}
+
+
+
+.tamanoP p{
+    font-size: 1.2em;
+    padding-bottom: 5px;
+}
+
+.tamano img{
+    padding-bottom: 30px;
+}
+
+/* Footer */
+
+footer .backgroundNegro{
+    background:rgb(31, 31, 31);
+    min-height: 250px;
+    text-align: center;
+    align-content: center;
+    padding: 40px;
+}
+
+
+ .backgroundNegro h2{
+    color: rgb(211, 211, 211);
+    font-size: 2em;
+    padding-bottom: 20px;
+ }
+
+ .backgroundNegro p{
+    font-size: 1.2em;
+    color: rgb(150, 150, 150);
+    
+ }
+
+
+
+.backgroundAmarillo{
+    background:  #9D8E22;
+    min-height: 70px;
+    align-content: center;
+    
+}
+.backgroundAmarillo p{
+    color: white;
+    font-size: 1.2em;
+    
+}
+
+.paddingTop{
+    padding-top: 20px;
+}
+
+address a{
+    text-decoration: none;
+    color: #9D8E22;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

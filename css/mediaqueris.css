@@ -1,0 +1,53 @@
+@media screen and (max-width:700px) {
+
+    /* Header */
+
+    ul.grid.navGrid{
+        display: none;
+    }
+
+    div.grid.primeraCabecera{
+        display: block;
+        text-align: center;
+        padding-top: 40px;
+        padding-right: 35px; 
+    }
+
+    nav img{
+        display: inline;
+        padding-top: 15px;
+        cursor: pointer;
+    }
+   
+   
+
+
+
+
+
+    /* Rendimeinto deportivo */
+
+    .rendimientoDeportivo{
+
+        grid-template-columns: 1fr;
+        padding: 0px 20%;
+        
+    }
+
+    .grid-h2{
+       border-radius: 0px 0px 0px 0px;
+    }
+
+    .grid-p, .grid-p-2{
+        border-radius: 0px 0px 0px 0px;
+
+    }
+
+
+    /* Tratamientos preventivos */
+
+    .tratamientosPreventivos .grid{
+        display: block;
+    }
+    
+}
