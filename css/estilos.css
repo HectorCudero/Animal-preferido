@@ -57,19 +57,18 @@ header a{
 }
 
 header div{
-    background: url("../imagenes/fondo-cabecera.jpg")center center /cover;
+    background: url("../imagenes/perro-fondo-header.jpg")center center /cover;
     min-height: 300px;
     padding-left: 40px;
 }
 
 header div h1{
-    padding-top: 20px;
+    padding-top: 0px;
     color: #CCBB33;
     font-size: 3em;
 }
 
 nav a:hover{
-    background: white;
     color:  #000000;
 }
 
@@ -85,8 +84,8 @@ nav{
 /* Menu navegación */
 
 header nav{
-    background: #000;
-    color: white;
+    background: #ffc760ba;
+    color: rgb(255, 255, 255);
     min-height: 50px;
     
     
@@ -97,7 +96,7 @@ header nav{
 
  header a{
     text-decoration: none;
-    color: #CCBB33;
+    color: #ff7600;
 }
 
 /* CONTENIDO PRINCIPAL */
