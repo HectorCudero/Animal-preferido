@@ -18,7 +18,7 @@ header a{
 }
 
 .fondoBlanco{
-    background: rgba(255, 255, 255, 0.724);
+    background: rgba(255, 255, 255, 0.599);
 }
 
  h2{
@@ -57,7 +57,7 @@ header a{
 }
 
 header div{
-    background: url("../imagenes/perro-fondo-header.jpg")center center /cover;
+    background: url("../imagenes/perro-fondo-header.jpg")0 70% /cover;
     min-height: 300px;
     padding-left: 40px;
 }
@@ -104,7 +104,7 @@ header nav{
 /* Rendimento deportivo */
 
 .rendimientoDeportivo{
-    background: url("../imagenes/fondo-seccion.jpg") 0px 20%/cover;
+    background: url("../imagenes/bosque2.jpg") 0px 20%/cover;
     min-height: 500px; 
     display: grid; 
     grid-template-columns: 1fr 2fr;
