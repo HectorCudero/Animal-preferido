@@ -28,8 +28,6 @@ h1,h2,h3{
 }
 
 body{
-
-	color: #707070;
 	font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
@@ -74,7 +72,6 @@ body{
 	flex-basis: 40%;
 	padding-right: 50px;
 	text-align: right;
-	color: #2F477A;
 }
 
  
@@ -114,7 +111,6 @@ body{
  
 .infoTrabajos h3{
 	margin: 1.5em 0;
-	color: #525252;
 	font-size: 1.2em;
 }
 

@@ -6,6 +6,12 @@
     margin: 0;
 }
 
+body{
+    background: url(../imagenes/fondo-madera.jpg) center/cover;
+}
+
+
+
 header a{
     text-decoration: none;
 }
@@ -20,17 +26,6 @@ header a{
 .fondoBlanco{
     background: rgba(255, 255, 255, 0.599);
 }
-
- h2{
-    color:#1B1B1B ;
- }
-
- 
-
- p{
-    color: #444444;
- }
-
 
 
 /* CABEREA PRINCIPAL */
