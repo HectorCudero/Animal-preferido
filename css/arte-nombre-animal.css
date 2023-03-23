@@ -59,16 +59,16 @@ body{
 
 /*Contenido dentro de las secciones*/
 
-.infoTrabajos {
+.infoArte {
 	padding: 40px 0;
 }
 
-.infoTrabajos:nth-child(even){
+.infoArte:nth-child(even){
 	background: rgb(47, 71, 122);
 	color:#eae9e9;
 }
 
-.infoTrabajos header{
+.infoArte header{
 	flex-basis: 40%;
 	padding-right: 50px;
 	text-align: right;
@@ -76,30 +76,30 @@ body{
 
  
 
-.infoTrabajos:nth-child(even) header{
+.infoArte:nth-child(even) header{
 	color: #ffffff;
 }
 
-.infoTrabajos header p{
+.infoArte header p{
 	font-family: Raleway, sans-serif;
 	font-size: 1.3em;
 	font-weight: 600;
 
 }
 
-.infoTrabajos .Columna{
+.infoArte .Columna{
 	flex-basis: 30%;
 	padding: 0 15px;
 }
 
  
-.infoTrabajos h2{
+.infoArte h2{
 	margin-bottom: 15px;
 	font-size: 2em;
  
 }
 
-.infoTrabajos:last-of-type{
+.infoArte:last-of-type{
 	/*la última sección no debe tener 
 	una linea en el borde inferior.
 	También le quitamos el margen inferior para que no 
@@ -109,12 +109,12 @@ body{
 }
 
  
-.infoTrabajos h3{
+.infoArte h3{
 	margin: 1.5em 0;
 	font-size: 1.2em;
 }
 
-.infoTrabajos:nth-child(even) h3{
+.infoArte:nth-child(even) h3{
 	color:#eae9e9;
 }
 

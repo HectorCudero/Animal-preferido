@@ -96,9 +96,9 @@ header nav{
 
 /* CONTENIDO PRINCIPAL */
 
-/* Rendimento deportivo */
+/* info perro */
 
-.rendimientoDeportivo{
+.fondoHierva{
     background: url("../imagenes/bosque2.jpg") 0px 20%/cover;
     min-height: 500px; 
     display: grid; 
@@ -129,26 +129,26 @@ header nav{
 }
 
 
-/* Tratamientos preventivos */
+/* razas perro */
 
-.gridTratamientos{
+.gridPerro{
     grid-template-columns: 1fr;
     margin: 60px 130px 60px 130px;
 }
  
-.tratamientosPreventivos h2{
+.perroInfo h2{
 
     font-size: 3em;
     padding-bottom: 40px;
 }
 
-.tratamientosPreventivos >p{
+.perroInfo >p{
     font-size: 1.5em;
     padding-bottom: 40px;
 }
 
 
-.tratamientosPreventivos .grid{
+.perroInfo .grid{
    grid-auto-flow: column;
    justify-content:left;
    gap: 40px;
