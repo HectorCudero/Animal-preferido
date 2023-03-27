@@ -62,29 +62,30 @@
 
         <div class="filaFlex ancho40 ">
            <form action="ProcesarForm.PHP"  method="post" enctype="multipart/form-data" name="peticion-datos" class="formulario">
-    
+                <!-- mensaje de advertencia -->
+                <p><small>Los campos con (*) son obligatorios</small></p>
                 <!-- Nombre -->
                 <div>
-                    <input class="nombre" type="text" name="nombre-usuario" id="nombre-user" placeholder="Nombre" required>
+                    *<input class="nombre" type="text" name="nombre-usuario" id="nombre-user" placeholder="Nombre" required>
                 </div>
         
                 <!-- Textarea -->
 
                 <div class="campoFormulario">
 
-                    <textarea name="consulta" id="consulta-user" cols="30" rows="10" placeholder="Comparta su información" required></textarea>
+                    *<textarea name="consulta" id="consulta-user" cols="30" rows="10" placeholder="Comparta su información" required></textarea>
 
                 </div>
                  <!-- adjuntar imagenes -->
                  <div style="padding-left: 10px;">
-                 <label for="envioImagenes"><strong>Adjunta tus imágenes:</strong></label>
+                 <label for="envioImagenes"><strong>* Adjunta tus imágenes:</strong></label>
                  <br>
                  <input type="file" name="envio-imagenes" id="envioImagenes" required>
                   </div>      
                 <!-- Clausulas de invio -->
                 <div>
                     <input type="checkbox" name="clausula" id="aceptar-clausulas" required>
-                    <label for="aceptar-clausulas" required>Acepto condiciones y termino de usos. <a href="#">Leer condiciones</a></label>
+                    <label for="aceptar-clausulas" required>* Acepto condiciones y termino de usos. <a href="#">Leer condiciones</a></label>
                 </div>
 
                
